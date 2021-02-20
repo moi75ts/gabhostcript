@@ -1,3 +1,4 @@
+yum -y update
 dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
 sudo dnf module reset php
 sudo dnf module enable php:remi-8.0
